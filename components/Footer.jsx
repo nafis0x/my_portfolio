@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Second Row: Social Links */}
         <div className="flex justify-center space-x-6">
           <Link
-            href="https://github.com/a-adaan"
+            href="https://github.com/nafis0x"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400"
