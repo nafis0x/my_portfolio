@@ -53,7 +53,7 @@ export default function ProjectCard({
             </Link>
           </div>
         </div>
-        <div className="md:flex md:space-x-4 lg:mt-2">
+        <div className="md:flex md:space-x-4 ">
           <div className="md:w-1/3 mb-3">
             <h3 className="font-semibold text-base lg:text-xl">
               Technologies Used:
