@@ -13,14 +13,14 @@ export default function ProjectCard({
   },
 }) {
   return (
-    <div className="lg:max-w-[900px] w-[320px] sm:w-[900px] lg:h-auto h-auto mx-auto bg-white shadow-lg rounded-lg overflow-hidden mb-12">
-      <div className="relative w-full h-auto overflow-hidden">
+    <div className="w-full max-w-5xl mx-auto h-full grid md:grid-rows-[60%_40%] grid-cols-1 bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="relative w-full h-full overflow-hidden">
         <Image
           src={visuals[0]}
           alt={`${title} screenshot`}
           height={1080}
           width={1920}
-          className="w-full h-auto max-h-[40vh] sm:max-h-[55vh] rounded-t-lg object-cover"
+          className="w-full h-full object-left-top object-fill md:object-cover"
         />
       </div>
 
@@ -53,8 +53,8 @@ export default function ProjectCard({
             </Link>
           </div>
         </div>
-        <div className="lg:flex lg:space-x-4 lg:mt-2">
-          <div className="lg:w-1/3 mb-3">
+        <div className="md:flex md:space-x-4 lg:mt-2">
+          <div className="md:w-1/3 mb-3">
             <h3 className="font-semibold text-base lg:text-xl">
               Technologies Used:
             </h3>
@@ -66,7 +66,7 @@ export default function ProjectCard({
               ))}
             </ul>
           </div>
-          <div className="lg:w-2/3 mb-4">
+          <div className="md:w-2/3 mb-4">
             <h3 className="font-semibold text-base lg:text-xl">
               Key Features:
             </h3>

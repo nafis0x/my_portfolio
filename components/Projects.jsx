@@ -7,7 +7,7 @@ export default function Projects() {
         <div
           key={project.id}
           style={{ backgroundColor: project.bgcolor }}
-          className="h-screen sticky top-0 lg:pt-[5vh] flex justify-center items-center"
+          className="h-screen sticky top-0 w-full py-10 px-4 md:px-3 2xl:px-0"
         >
           <ProjectCard project={project} />
         </div>
