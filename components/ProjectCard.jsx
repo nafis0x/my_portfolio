@@ -25,7 +25,7 @@ export default function ProjectCard({
       </div>
 
       {/* Details section */}
-      <div className="p-3 sm:p-5 lg:h-auto lg:flex lg:flex-col lg:justify-center">
+      <div className="p-3 w-full sm:p-5 h-full overflow-hidden">
         <div className="flex flex-col md:flex-row mb-2 md:mb-0 items-center justify-between">
           <h2 className="text-xl lg:text-3xl font-bold mb-3">{title}</h2>
           <div className="flex  items-center justify-between gap-5 lg:col-span-2">
